@@ -50,7 +50,7 @@ function generateProgressCard(){
     var css=document.querySelectorAll(".color");
     
     for(var i=0;i<css.length;i++){
-        css[i].style.color=determineColor(percentage*100)
+        css[i].style.color=determineColor(percentage*100);
     }
     document.getElementById("form").style.display="none";
        }
