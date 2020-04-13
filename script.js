@@ -45,7 +45,7 @@ function generateProgressCard(){
     addname.innerText=Name.value;
     var percentage=(Number(mark1.value)+Number(mark2.value)+Number(mark3.value))/300;
 
-    addpercentage.innerText=percentage*100+"%";
+    addpercentage.innerText=(percentage*100).toFixed(2)+"%";
     scorecard.style.display="block";
     var css=document.querySelectorAll(".color");
     
