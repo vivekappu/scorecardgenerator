@@ -32,7 +32,7 @@ else if(percentage>40 && percentage<70)
     return "green";
 }
 else{
-    return "white";
+    return "Orchid";
 }
 }
 function generateProgressCard(){
