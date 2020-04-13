@@ -1,0 +1,14 @@
+/* You can write your codes here  */
+#scorecard{
+  text-align: center;
+  border: solid red 2px;
+  padding:20px;
+  display:none;
+}
+h1{
+    color:green;
+    padding-bottom:30px;
+}
+span{
+    padding-left:20px;
+}

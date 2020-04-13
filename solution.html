@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Card Generator</title>
+    <link rel="stylesheet" href="styleSolutions.css">
+
+</head>
+<body>
+    <div id="form">
+        <!--You dont have to provide style in this div-->
+        <form>
+            <label for="Name">Enter Student Name</label><br>
+            <input type="text" id="name" required><br>
+            <label for="">Enter Class</label><br>
+            <input type="text" id="class" required><br>
+            <label for="">Enter roll number</label><br>
+            <input type="text"  id="rollNo" required><br>
+            <label for="">Mark obtained in subject-1</label><br>
+            <input type="number"  id="mark1" required>/100<br>
+            <label for="">Mark obtained in subject-2</label><br>
+            <input type="number"  id="mark2" required>/100<br>
+            <label for="">Mark obtained in subject-3</label><br>
+            <input type="number"  id="mark3" required max=100>/100<br>
+            <p>Click the button below to create Percentage Card</p>
+            <button type="button">Generate Card</button>
+          </form>
+          
+          <!--Use the data from above input fileds to generate a card -->
+    </div>
+    <div id="scorecard">
+        <h1>Percentage Card</h1>
+        <p><span>The percentage obtained by your ward</span><span class="name" id="color">Sherlock</span><span>of class</span><span class="class" id="color">9B</span><span>has scored</span><span class="percentage" id="color">85%</span></p>
+    </div>
+<div>
+<!--Write your codes from here-->
+</div>
+
+
+
+<script src="script.js"></script>
+      </body> 
+
+</html>
